@@ -1,0 +1,14 @@
+.intro__list {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+list-style: none;
+color: #FFFFFF;
+}
+ul:not([class]) {
+    margin: 0;
+    padding: 0;
+}
+
