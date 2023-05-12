@@ -1,7 +1,7 @@
-.header__lang-link {  
-  max-width: 30px;
-  max-height: 28px;
+.header__link {  
+  max-width: 30px; 
   margin-left: 18px;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10,10 +10,13 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+.header__link:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
 @media screen and (max-width:767px){
-  .header__lang-link{
-    max-width: 22px;
-    max-height: 20px;
+  .header__link{
+    max-width: 22px;    
     font-size: 18px;
     line-height: 20px;
   }

@@ -7,12 +7,12 @@
   
   @media (max-width: 810px) {
     .footer {
-      padding: 88px 24px 24px;
+      padding: 0 24px 24px;
     }
   }
   @media (max-width: 660px) {
     .footer {
-      padding: 64px 16px 24px;
+      padding: 0 16px 24px;
       flex-flow: wrap column;
       gap: 48px;
     }

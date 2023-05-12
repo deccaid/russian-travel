@@ -8,6 +8,7 @@
   @media screen and (max-width:767px) {
      .place__website{
       align-self: start;
+      margin: 0 8px;
      }
   }
 

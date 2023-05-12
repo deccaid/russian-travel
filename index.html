@@ -7,17 +7,18 @@
     <meta name="keywords" content="html,css" />
     <meta name="author" content="Илюшка" />
     <link rel="stylesheet" href="pages/index.css" />
-    <title>Научиться учиться</title>
+    <title>russian-travel</title>
   </head>
   <body class="root">
     <header class="header">
       <img src="./images/__logo.png" alt="Логотип" class="header__logo" />
       <nav>
-        <a href="#" class="header__lang-link">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
+        <a href="#" class="header__link header__link_active">Ru</a>
+        <a href="#" class="header__link">En</a>
       </nav>
     </header>
-    <section class="lead">
+    <main>
+      <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а здесь.
@@ -42,24 +43,24 @@
         проехала 20 тысяч километров по родной стране. Мы выбрали и описали
         некоторые интересные места, достойные вашего отпуска.
       </p>
-      <ul>
-        <li class="intro__line-list">
-          Часовых поясов <span class="intro__list intro__list_number-weight">11</span>
+      <ul class="intro__line-list">
+        <li>
+          Часовых поясов <span class="intro__span-accent">11</span>
         </li>
-        <li class="intro__line-list">
+        <li>
           Объектов природного наследия ЮНЕСКО
-          <span class="intro__list intro__list_number-weight">12</span>
+          <span class="intro__span-accent">12</span>
         </li>
-        <li class="intro__line-list">
+        <li>
           Объектов культурного наследия ЮНЕСКО
-          <span class="intro__list intro__list_number-weight">16</span>
+          <span class="intro__span-accent">16</span>
         </li>
-        <li class="intro__line-list">
+        <li>
           Природных заповедников
-          <span class="intro__list intro__list_number-weight">105</span>
+          <span class="intro__span-accent">105</span>
         </li>
-        <li class="intro__line-list">
-          Аэропортов <span class="intro__list intro__list_number-weight">241</span>
+        <li>
+          Аэропортов <span class="intro__span-accent">241</span>
         </li>
       </ul>
     </section>
@@ -93,7 +94,7 @@
       <article class="place places__place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a
             class="place__link"
             href="http://park-kosa.ru"
@@ -127,7 +128,7 @@
       <article class="place places__place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a
             class="place__link"
             href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -160,7 +161,7 @@
       <article class="place places__place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a
             class="place__link"
             href="src=https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -187,7 +188,7 @@
       <article class="place places__place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a
             class="place__link"
             href="https://vk.com/baikalmile"
@@ -218,7 +219,7 @@
       <article class="place places__place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a
             class="place__link"
             href="http://vodlozero.ru"
@@ -251,15 +252,16 @@
         href="https://stampsy.com/na-elektrichkakh-do-baikala"
         class="cover__link"
       >
-        <div class="cover__background">
+        
           <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <h3 class="cover__subtitle">
+          <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
-          </h3>
-        </div></a
+          </p>
+        </a
       >
     </section>
+    </main>
     <footer class="footer">
       <nav class="footer__menu">
         <a class="footer__link" href="https://yandex.ru/maps" target="_blank"
