@@ -16,7 +16,7 @@
 
 
 Ссылка на сайт:
-https://deccaid.github.io/russian-travel /
+https://deccaid.github.io/russian-travel/
 
 Планы по доработке:
 Создать английскую версию сайта
